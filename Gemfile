@@ -13,8 +13,12 @@ gem 'solidus',  '2.0.0'
 gem 'solidus_auth_devise', '1.6.2'
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'byebug', platform: :mri
+  gem 'pry',                            '0.10.3'
+  gem 'pry-rails',                      '0.3.4'
+  gem 'rspec-rails',                    '3.5.2'
+  gem 'rspec-activemodel-mocks',        '1.0.3'
+  gem 'rspec_junit_formatter',          '0.2.2'
+  gem 'webmock',                        '2.0.1'
 end
 
 group :development do
